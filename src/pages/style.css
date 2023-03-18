@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Syne:wght@700&display=swap');
+/* font-family: 'Syne', sans-serif; */
+
+/* divs */
+.main {
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+/* navigation */
+
+/* text */
+
+.post-link {
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none !important;
+    margin-bottom: 30px;
+}
+
+
+.post-date {
+    font-size: 13px;
+    font-weight: 400;
+    color: #A9A9A9;
+}
+
+/* images */
