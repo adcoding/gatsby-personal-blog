@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/gatsby-personal-blog",
   plugins: [
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
