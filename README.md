@@ -26,8 +26,11 @@ For example, ```2021-09-01-my-first-post.md```
 
 The Markdown file should start with a frontmatter section that contains metadata about the post, such as the title and date:
 
-```---
+```
+---
 title: My First Post
 date: 2021-09-01
 ---
+
+Your content
 ```

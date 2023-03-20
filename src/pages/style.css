@@ -3,9 +3,17 @@
 
 /* divs */
 .main {
-    width: 500px;
+    max-width: 500px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 50px;
+    padding: 4%;
+}
+
+.blog-post-container {
+    max-width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 4%;
 }
 
 /* navigation */
@@ -20,12 +28,38 @@
     text-decoration: none !important;
     margin-bottom: 30px;
 }
-
-
 .post-date {
     font-size: 13px;
     font-weight: 400;
     color: #A9A9A9;
 }
 
+.blog-post-title {
+    font-family: 'Syne', sans-serif;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.blog-post-date {
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    color: #A9A9A9;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
 /* images */
+
+.blog-post-content img {
+    margin: 20px 0px !important;
+}
+
+/* other */
+
+hr {
+    height: 1px;
+    border: none;
+    background-color: #DEDDDD;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
