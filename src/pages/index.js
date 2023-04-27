@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import PostLink from "../components/post-link"
 import './style.css'
+import Header from './header';
 
 const IndexPage = ({
   data: {
@@ -14,6 +15,7 @@ const IndexPage = ({
 
   return (
     <div className='main'>
+      <Header />
       {Posts}
     </div>
   )

@@ -17,6 +17,21 @@
 }
 
 /* navigation */
+.header {
+    padding: 40px 0px;
+}
+
+.header a {
+    font-family: 'Manrope', sans-serif;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 16px;
+    color: #a9a9a9;
+}
+
+.header a:hover {
+    color: #000;
+}
 
 /* text */
 
@@ -50,6 +65,11 @@
 
 /* images */
 
+.avatar {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
 .blog-post-content img {
     margin: 20px 0px !important;
 }
@@ -61,5 +81,5 @@ hr {
     border: none;
     background-color: #DEDDDD;
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }

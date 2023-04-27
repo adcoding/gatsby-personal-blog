@@ -2,6 +2,7 @@ import * as React from "react"
 import { graphql } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import '../../pages/style.css'
+import Header from '../header'
 
 export default function BlogPostTemplate({
   data, // this prop will be injected by the GraphQL query below.
@@ -13,6 +14,7 @@ export default function BlogPostTemplate({
 
   return (
     <div className='blog-post-container'>
+      <Header />
       <div>
         <h1 className='blog-post-title'>{frontmatter.title}</h1>
         <h2 className='blog-post-date'>{frontmatter.date}</h2>
